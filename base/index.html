@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="stylesheet" href="./css/main.css">
-  <script src="./js/main.js"></script>
+  <script defer src="./js/main.js"></script> <!-- defer = html 구조가 준비 된후에 자바스크릅티를 해석하겠다는 의미 -->
 </head>
 
 <!-- https://codepen.io/qwer20540  코드펜 -->  
@@ -18,9 +18,32 @@
   <!-- <a href="https://naver.com">NAVER</a>
   <a href="/about">About</a>
   <a href="/login">Login</a> -->
-  <div></div>
-  <img src="" alt="">
+  <img src="" alt="" />
   <h1></h1>
   <div class="hello"></div>  <!-- div.hello 후 엔터 = emmet--->
+
+  <!-- 태그정리 -->
+  <div></div> <!--블럭 태그 / 특별한 의미가 없는 구분을 위한 요소 -->
+  <h1></h1> <!-- 블럭 태그 / 제목을 의미하는 요소 1~6 -->
+  <p></p> <!-- 블럭 태그 / 문장을 의미하는 요소 -->
+  <img src="" alt=""> <!-- 인라인 태그 / 이미지를 삽입 -->
+  <ul></ul> <!-- 블럭 태그 / 순서가 필요없는 목록의 집합을 의미 -->
+  <li></li> <!-- 블럭 태그 / 목록 내 각 항목 -->
+  <a href="" target="_blank" title="네이버로 이동">blank는 새탭을 만듬</a> <!-- 인라인 태그 / 다른,같은 페이지로 이동하는 하이퍼링크를 지정하는 요소 / 요소의 저옵나 설명을 지정 -->
+  <span></span> <!-- 인라인 태그 / 특별한의미가 없는 구분을 요소.-->
+  <br> <!-- 인라인 태그 / 줄바꿈 요소-->
+  <input type="text" value="미리 입력된 값(데이터) hello" placeholder="사용자가 입력할 값(데이터) 힌트 / 이름을 입력하세요!" disabled> 
+  <!-- 인라인 블럭 태그 / 사용자가 테이터를 입력하는 요소 /disabled=입력요소 비활성화/-->
+  <label><input type="checkbox" name="" id="" checked>apple</label> <!-- 인라인 태그 / 라벨 가능 요소의 제목 / checked=체크박스 입력요소 미리 체크됨-->
+  <label for=""><input type="radio" name="fruits" />apple</label> <!-- 사용자에게 체크 여부를 그룹에서 1개만 입력 받음 name=그룹 같은 그룹끼리 -->
+  <table>
+    <tr> <!-- 행을 의미 -->
+      <td></td> <!-- 열을 지정하는 요소 cell-->
+    </tr>
+  </table> <!-- 테이블 태그 / 표 요소, 행(row)과 열(column)의 집합  -->
+  
+  <div id="절대 전역속성" class="네이밍" data-link="요소에 데이터를 지정"></div>
+  <div data-fruit-name="apple">사과</div>
+  <div data-fruit-name="banana">바나나</div>
 </body>
 </html>
