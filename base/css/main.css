@@ -1,3 +1,79 @@
+/* 태그 {속성은 : 값이다;} */
+/* 
+내장 방식 - <style></style>의 내용으로 스타일을 작성하는 방식
+인라인 방식 - 요소의 style 속성에 직접 스타일을 작성하는 방식
+링크방식 - <link />로 외부 css 문서를 가져와서 연결하는 방식 =병렬
+@import 방식 - css의 @import 규칙으로 css문서 안에서 또 다른 css문서를 가져와 연결하는 방식 =직렬
+*/
+/* 
+선택자_기본
+전체 선택자 - * 모든 태그 전부
+태그 선택자 - 태그 이름이 abc인 요소 선택 abc
+클래스 선택자 - html class 속성의 값이 abc인 요소 선택.  .abc
+아이디 선택자 - html id 속성의 값이 abc인 요소 선택. #abc
+
+선택자_복합
+일치 선택자 - 선택자 abc와 xyz를 동시에 만족하는 요소 선택 abc.xyz
+자식 선택자 - 선택자 abc의 자식 요소 xyz 선택. abc > xyz
+하위 선택자 - 선택자 abc의 하위 요소 xyz선택, '띄어쓰기'가 선택자의 기호! abc .xyz
+인접 형제 서택자 - 선택자 abc의 다음 형제 요소 xyz *하나*를 선택. abc + xyz
+일반 형제 선택자 - 선택자 abc의 다음 형제 요소 xyz *모두*를 선택. abc ~ xyz
+
+선택자_가상
+abc:hover {
+  선택자 abcdythdp 마우스를 커서가 올라가 있는 동안 선택
+}
+abc:active {
+  선택자 abc요소에 마우스를 클릭하고 있는 동안 선택
+}
+abc:focus {
+  선택자 abc요소가 포커스되면 선택 / 대표적으로 input태그
+  포커스를 가능하게 하는 방법은 tabindex="-1"
+}
+abc:first-child {
+  선택자 abc가 형제 요소 중 첫째라면 선택
+}
+abc:last-child {
+  선택자 abc가 형제 요소 중 막내라면 선택
+}
+abc:nth-child() {
+  선택자 abc가 형제 요소 중 (n)째라면 선택
+}
+abc:not(xyz) {
+  선택자 xyz가 아닌 abc요소 선택
+}
+
+선택자_가상 요소
+abc::before {
+  인라인(글자)요소
+  선택자 abc요소의 내부 앞에 내용을 삽입
+  content:"앞!";
+}
+abc::after {
+  선택자 abc요소의 내부 뒤에 내용을 삽입
+  content:"뒤!";
+}
+
+선택자_속성
+[abc] 속성 abc을 포함한 요소 선택
+ex).. [disabled], [type], []
+[abc="xyz"] 속성 abc을 포함하고 그 값이 xyz인 요소 선택
+ex).. [type="password"]
+
+강제 상속 - inherit; 부모로부터 상속받아서 사용하는 방법
+
+우선 순위란 ? 
+1. 점수가 높은 순으로
+html에서 인라인 선언방식은 +1000
+id +100
+class, 가상class(hover,focus...) +10
+태그선택자 div, 가상요소(::before,::after) +1
+* +0
+!important +9999999999999999999999
+body 상속x 
+*/
+
+
 div {
   width:200px;
   height:100px;
