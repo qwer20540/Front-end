@@ -8,7 +8,7 @@ rem 루트 요소(html)의 글꼴 크기
 vw 뷰포트 가로 너비의 백분율
 vh 뷰포트 세로 너비의 백분율 */
 
-/* margin - 요소의 외부 여백을 지정하는 단축 속성(음수도 사용가능) */
+/* margin - 요소의 외부 여백을 지정하는 단축 속성(음수도 사용가능) margin:0 0 0 0 시계방향으로 위 오른쪽 아래 왼쪽 */
 
 
 
@@ -45,5 +45,5 @@ span {
   width:100px; 
   height:100px;
   background-color:orange;
-  margin:20px;
+  margin:20px 0 0 0;
 }
