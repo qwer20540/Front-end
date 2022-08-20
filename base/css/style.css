@@ -1,0 +1,37 @@
+/* width = 인라인요소는 줄어들라고함 블럭요소는 최대한 늘릴라고함 */
+/* max-width, max-height - 요소가 커질 수 있는 최대 가로/세로 너비 */
+/* 단위
+px 픽셀
+% 상대적 백분율
+em 요소의 글꼴 크기
+rem 루트 요소(html)의 글꼴 크기
+vw 뷰포트 가로 너비의 백분율
+vh 뷰포트 세로 너비의 백분율 */
+
+
+
+
+div {
+  background-color:orange;
+}
+span {
+  background-color:orange;
+}
+.parent {
+  width:300px;
+  height:200px;
+  background-color:royalblue;
+  font-size:10px;
+}
+.chlid {
+  /* width:auto;
+  max-width:300px; */
+  /* min-width: 400px; */
+  /* width:50%;
+  height:50%; */
+  /* width: 20em; */
+  /* width: 20rem; */
+  /* width:50vw;
+  height: 100vh; */
+  background-color:orange;
+}
