@@ -27,7 +27,7 @@ abc:active {
   선택자 abc요소에 마우스를 클릭하고 있는 동안 선택
 }
 abc:focus {
-  선택자 abc요소가 포커스되면 선택 / 대표적으로 input태그
+  선택자 abc요소가 포커스되면 선택 / 대표적으로 input태그 
   포커스를 가능하게 하는 방법은 tabindex="-1"
 }
 abc:first-child {
