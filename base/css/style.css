@@ -51,6 +51,14 @@ background-repeat(하나만 나오게 하기):no-repeat(반복없음) repeat(반
 background-position(위치):center, top, bottom, left, right 단위로도 지정가능 px, em, rem 
 background-attachment: scroll(이미지가 요소를 따라서 같이 스크롤) fixed(고정)  */
 
+/* position- 요소의 위치 지정 기준
+relative - 요소 자신을 기준
+absolute - 위치 상 부모 요소를 기준
+static - 기준없음
+fixed - 뷰토프를 기준
+sticky - 스크롤 영역 기준 */
+
+
 
 .block {
   background-color:orange;
