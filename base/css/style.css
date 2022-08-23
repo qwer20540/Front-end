@@ -40,6 +40,16 @@ display - 요소의 화면 출력 특성
 0~1 0부터 1사이로 투명해짐 0에 가까울 수록 투명 */
 
 /* line-height - 한줄의 높이, 행간과 유사 / 배수로 입력이 좋음 1,2,1.5 드,ㅇ등 */
+/* color(글자의 색상) rgb(0, 0, 0) 검정색
+text-align(문자의 정렬 방식) left, right, center 
+text-decoration(문자의 장식{선}) none, underline(밑줄), line-through(중앙 선)
+text-indent(첫문장 들여쓰기{양수, 음수 가능}) */
+
+/* background-image:url(경로)
+background-size:(사이즈) auto, 단위 cover(더 넓은 넓이에 맞춰 비율조정), contain(짧은 넓이에 맞춰 비율 조정)
+background-repeat(하나만 나오게 하기):no-repeat(반복없음) repeat(반복), repeat-x(수평 반복), repeat-y(수직 반복)
+background-position(위치):center, top, bottom, left, right 단위로도 지정가능 px, em, rem 
+background-attachment: scroll(이미지가 요소를 따라서 같이 스크롤) fixed(고정)  */
 
 
 .block {
