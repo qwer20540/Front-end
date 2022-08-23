@@ -39,6 +39,8 @@ display - 요소의 화면 출력 특성
 1불투명
 0~1 0부터 1사이로 투명해짐 0에 가까울 수록 투명 */
 
+/* line-height - 한줄의 높이, 행간과 유사 / 배수로 입력이 좋음 1,2,1.5 드,ㅇ등 */
+
 
 .block {
   background-color:orange;
