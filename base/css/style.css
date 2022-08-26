@@ -58,6 +58,20 @@ static - 기준없음
 fixed - 뷰토프를 기준
 sticky - 스크롤 영역 기준 */
 
+/* flex
+flex-container
+flex-direction : row(행 좌 > 우), row-reverse(행 우 > 좌), column (열 위 > 아래), column-reverse(열 아래 > 위)
+flex-wrap : nowrap(묶음 없음), wrap (d여러 줄로 묶음)
+justify-content : flex-start(플렉스 아이템을 시작점으로 정렬), flex-end( 끝점으로 정렬), center(가운데 정렬)
+align-contert : stretch(플렉스 아이템을 시작점으로), flex-start(시작점), flex-end(끝점), center(가운데 정렬)
+align-items : stretch(플렉스 아이템을 시작점으로), flex-start(시작점), flex-end(끝점), center(가운데 정렬)
+
+flex-items
+order(아이템의 순서) : 0(숫자없음) 숫자 (숫자가 작을 수록 먼저)
+flex-grow(아이템의 증가 너비 비율) : 0(증가비율 없음), 숫자(증가비율)
+flex-shrink(아이템의 감소 너비 비율) : 1(컨테이너 너비에 따라 감시 비율), 숫자 (감소비율)
+flex-basis (공간 배분 전 기본 너비) : auto(요소의 컨텐츠 너비), 단위 */
+
 
 
 .block {
