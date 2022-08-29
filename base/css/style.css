@@ -72,6 +72,18 @@ flex-grow(아이템의 증가 너비 비율) : 0(증가비율 없음), 숫자(�
 flex-shrink(아이템의 감소 너비 비율) : 1(컨테이너 너비에 따라 감시 비율), 숫자 (감소비율)
 flex-basis (공간 배분 전 기본 너비) : auto(요소의 컨텐츠 너비), 단위 */
 
+/* 전환
+transition: 1s; 요소의 전환(시작과 끝)효과를 지정하는 단축 속성  속성명, 지속시간, 타이밍함수, 대기시간
+transition-propety 속성 이름을 지정 기본값 all,  속성이름
+transition-duration: 지속시간 0s, 시간
+transition-timing-function {  easing function <- 사이트  +mdn 
+  ease 느리게-빠르게-느리게
+  linear 일정하게
+  ease-in 느리게 - 빠르게
+  ease-out 빠르게-느리게
+  ease-in-out 느리게-빠르게-느리게
+}
+transition-delay 몇 초뒤ㅏ에 시작할지 대기시간 지정 기본값 0s */
 
 
 .block {
