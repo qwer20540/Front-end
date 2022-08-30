@@ -100,6 +100,7 @@ transform : 변환함수, 원근법 이동 크기 회전 기울임 {
   rotateX(xdeg) 회전(x축)
   rotateY(ydeg) 회전(y축)
   perspective(n) 원근법(거리)
+  backface-visibility 3d변환으로 회전된 요소의 뒷면 숨김 여부 : visible hiiden
 } */
 
 
