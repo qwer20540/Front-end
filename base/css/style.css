@@ -85,6 +85,23 @@ transition-timing-function {  easing function <- 사이트  +mdn
 }
 transition-delay 몇 초뒤ㅏ에 시작할지 대기시간 지정 기본값 0s */
 
+/* 변환
+transform : 변환함수, 원근법 이동 크기 회전 기울임 {
+  2D 변환 함수
+  translate(x,y) 이동 x축 y축
+  translateX() 이동x축
+  translateY() 이동y축
+  scale(x,y) z크기 x축 y축
+  rotate(0deg) 회전(각도)
+  skewX() 기울임x축
+  skewY() 기울임y축
+
+  3D 변환 함수
+  rotateX(xdeg) 회전(x축)
+  rotateY(ydeg) 회전(y축)
+  perspective(n) 원근법(거리)
+} */
+
 
 .block {
   background-color:orange;
