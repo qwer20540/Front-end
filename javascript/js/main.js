@@ -59,3 +59,6 @@ let fruits = ['Apple', 'Banana', 'Chetty'];
 console.log(fruits[0]);
 console.log(fruits[1]);
 console.log(fruits[2]);
+
+// let 재할당 가능
+// const 재할당 불가능
